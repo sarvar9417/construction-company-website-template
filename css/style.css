@@ -1,11 +1,16 @@
-
+.bashni{
+    background-image: url('../img/bashni.webp');
+    background-attachment: fixed;
+    background-clip: border-box;
+}
 .mylogo{
-    width: 150px;
-    font-size: 15pt;
+    width: 100px;
+    position: absolute;
+    font-size: 22pt;
     margin-left: 20px;
-    margin-right: 150px;
-    float:right;
     color: black;
+    font-weight: 600;
+    bottom: 2px;
 }
 .mylogo:hover{
     color: black!important;
