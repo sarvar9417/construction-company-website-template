@@ -1,3 +1,7 @@
+.bg-black{
+    background-color: #000000;
+}
+
 .client{
     color: white;
     text-align: center;
@@ -12,8 +16,11 @@
 
 .bashni{
     background-image: url('../img/bashni.webp');
+    background-clip: initial;
     background-attachment: fixed;
     background-clip: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .mylogo{
     width: 100px;
@@ -762,6 +769,7 @@ a:focus {
 
 .service .service-img img {
     width: 100%;
+    max-height: 191px;
 }
 
 .service .service-overlay {
