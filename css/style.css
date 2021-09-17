@@ -16,11 +16,8 @@
 
 .bashni{
     background-image: url('../img/bashni.webp');
-    background-clip: initial;
     background-attachment: fixed;
-    background-clip: border-box;
     background-repeat: no-repeat;
-    background-size: cover;
 }
 .mylogo{
     width: 100px;
